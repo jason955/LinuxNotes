@@ -1,0 +1,12 @@
+Boot the Guest operating system in VirtualBox.
+Select Devices > Shared Folders in the VirtualBox menu
+Choose the Add button. Select the host folder you want to share
+Select Auto Mount
+Reboot your guest system
+Now you will find your shared folder mapped as network drive on Windows.
+
+sudo apt install virtualbox-guest-dkms 
+
+sudo mount -t vboxsf SHARE ~/share
+
+Where SHARE is the host folder and ~/share is guest folder
