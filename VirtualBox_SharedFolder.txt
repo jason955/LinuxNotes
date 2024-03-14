@@ -5,7 +5,7 @@ Select Auto Mount
 Reboot your guest system
 Now you will find your shared folder mapped as network drive on Windows.
 
-sudo apt install virtualbox-guest-dkms 
+sudo apt install virtualbox-guest-dkms virtualbox-guest-utils virtualbox-guest-x11
 
 sudo mount -t vboxsf SHARE ~/share
 

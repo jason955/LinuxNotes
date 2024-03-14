@@ -1,0 +1,4 @@
+Recursively convert all dos files to linux
+
+find /path -type f -print0 | xargs -0 dos2unix --
+
